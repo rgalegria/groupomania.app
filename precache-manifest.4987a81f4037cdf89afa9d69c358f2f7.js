@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a38d27a09011eb8fdc34fc96a3a0d17",
+    "revision": "47b16e5b7b35fdc990ce4f5728db4031",
     "url": "/groupomania.app/index.html"
   },
   {
-    "revision": "d21be93b6edf01604264",
+    "revision": "50ae1fa71ee87de3817c",
     "url": "/groupomania.app/static/css/main.b523f62c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/groupomania.app/static/js/2.7062c053.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d21be93b6edf01604264",
-    "url": "/groupomania.app/static/js/main.be38b7b6.chunk.js"
+    "revision": "50ae1fa71ee87de3817c",
+    "url": "/groupomania.app/static/js/main.3cec1330.chunk.js"
   },
   {
     "revision": "2a69e72666a58a447286",
