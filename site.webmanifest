@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Groupomania",
+    "short_name": "Groupomania",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#c30000",
+    "background_color": "#c30000",
+    "start_url": "rgalegria.github.io/groupomania.app/",
     "display": "standalone"
 }

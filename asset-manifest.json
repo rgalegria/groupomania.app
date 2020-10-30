@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/groupomania.app/static/css/main.4be43bb9.chunk.css",
-    "main.js": "/groupomania.app/static/js/main.763f3427.chunk.js",
-    "main.js.map": "/groupomania.app/static/js/main.763f3427.chunk.js.map",
+    "main.css": "/groupomania.app/static/css/main.b523f62c.chunk.css",
+    "main.js": "/groupomania.app/static/js/main.be38b7b6.chunk.js",
+    "main.js.map": "/groupomania.app/static/js/main.be38b7b6.chunk.js.map",
     "runtime-main.js": "/groupomania.app/static/js/runtime-main.14b6c0d6.js",
     "runtime-main.js.map": "/groupomania.app/static/js/runtime-main.14b6c0d6.js.map",
-    "static/js/2.574603be.chunk.js": "/groupomania.app/static/js/2.574603be.chunk.js",
-    "static/js/2.574603be.chunk.js.map": "/groupomania.app/static/js/2.574603be.chunk.js.map",
+    "static/js/2.7062c053.chunk.js": "/groupomania.app/static/js/2.7062c053.chunk.js",
+    "static/js/2.7062c053.chunk.js.map": "/groupomania.app/static/js/2.7062c053.chunk.js.map",
     "index.html": "/groupomania.app/index.html",
-    "precache-manifest.3d29721df7d295b766a9092f14102edd.js": "/groupomania.app/precache-manifest.3d29721df7d295b766a9092f14102edd.js",
+    "precache-manifest.3d6e67809302aab47fe944acd4b7c61f.js": "/groupomania.app/precache-manifest.3d6e67809302aab47fe944acd4b7c61f.js",
     "service-worker.js": "/groupomania.app/service-worker.js",
-    "static/css/main.4be43bb9.chunk.css.map": "/groupomania.app/static/css/main.4be43bb9.chunk.css.map",
-    "static/js/2.574603be.chunk.js.LICENSE.txt": "/groupomania.app/static/js/2.574603be.chunk.js.LICENSE.txt",
+    "static/css/main.b523f62c.chunk.css.map": "/groupomania.app/static/css/main.b523f62c.chunk.css.map",
+    "static/js/2.7062c053.chunk.js.LICENSE.txt": "/groupomania.app/static/js/2.7062c053.chunk.js.LICENSE.txt",
     "static/media/agenda-icon.svg": "/groupomania.app/static/media/agenda-icon.1a8a09ec.svg",
     "static/media/back-icon.svg": "/groupomania.app/static/media/back-icon.69eb6e06.svg",
     "static/media/UpdateProfile.module.css": "/groupomania.app/static/media/background.5ff4ccf5.jpg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.14b6c0d6.js",
-    "static/js/2.574603be.chunk.js",
-    "static/css/main.4be43bb9.chunk.css",
-    "static/js/main.763f3427.chunk.js"
+    "static/js/2.7062c053.chunk.js",
+    "static/css/main.b523f62c.chunk.css",
+    "static/js/main.be38b7b6.chunk.js"
   ]
 }
