@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/groupomania.app/static/css/main.7189fbc3.chunk.css",
-    "main.js": "/groupomania.app/static/js/main.0d306a07.chunk.js",
-    "main.js.map": "/groupomania.app/static/js/main.0d306a07.chunk.js.map",
+    "main.js": "/groupomania.app/static/js/main.8ece1c6d.chunk.js",
+    "main.js.map": "/groupomania.app/static/js/main.8ece1c6d.chunk.js.map",
     "runtime-main.js": "/groupomania.app/static/js/runtime-main.14b6c0d6.js",
     "runtime-main.js.map": "/groupomania.app/static/js/runtime-main.14b6c0d6.js.map",
     "static/js/2.809a8b63.chunk.js": "/groupomania.app/static/js/2.809a8b63.chunk.js",
     "static/js/2.809a8b63.chunk.js.map": "/groupomania.app/static/js/2.809a8b63.chunk.js.map",
     "index.html": "/groupomania.app/index.html",
-    "precache-manifest.ddedb779491244d60d781dfc6ca7fc19.js": "/groupomania.app/precache-manifest.ddedb779491244d60d781dfc6ca7fc19.js",
+    "precache-manifest.6cd5a5bba210132f04c7f3fc2b5f2227.js": "/groupomania.app/precache-manifest.6cd5a5bba210132f04c7f3fc2b5f2227.js",
     "service-worker.js": "/groupomania.app/service-worker.js",
     "static/css/main.7189fbc3.chunk.css.map": "/groupomania.app/static/css/main.7189fbc3.chunk.css.map",
     "static/js/2.809a8b63.chunk.js.LICENSE.txt": "/groupomania.app/static/js/2.809a8b63.chunk.js.LICENSE.txt",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.14b6c0d6.js",
     "static/js/2.809a8b63.chunk.js",
     "static/css/main.7189fbc3.chunk.css",
-    "static/js/main.0d306a07.chunk.js"
+    "static/js/main.8ece1c6d.chunk.js"
   ]
 }
