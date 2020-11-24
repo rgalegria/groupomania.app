@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/groupomania.app/precache-manifest.c6392ef368aa177dc4e1fac5ebe440f2.js"
+  "/groupomania.app/precache-manifest.2a0ab723044ffea5ce3e2a58994f8722.js"
 );
 
 self.addEventListener('message', (event) => {

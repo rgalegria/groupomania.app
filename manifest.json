@@ -15,6 +15,6 @@
     ],
     "theme_color": "#c30000",
     "background_color": "#c30000",
-    "start_url": "rgalegria.github.io/groupomania.app/",
+    "start_url": "https://rgalegria.github.io/groupomania.app/",
     "display": "standalone"
 }
