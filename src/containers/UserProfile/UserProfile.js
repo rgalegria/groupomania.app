@@ -64,7 +64,7 @@ const UserProfile = () => {
                     id="back"
                     name="retourner"
                     icon={back}
-                    link="/posts"
+                    link="/groupomania.app/posts"
                     btnStyle={btnStyle}
                     iconColor={iconStyle}
                 />
@@ -81,7 +81,7 @@ const UserProfile = () => {
                         id="back"
                         name="retourner"
                         icon={back}
-                        link="/posts"
+                        link="/groupomania.app/posts"
                         btnStyle={btnStyle}
                         iconColor={iconStyle}
                     />
@@ -89,7 +89,7 @@ const UserProfile = () => {
                         id="update-profile"
                         name="Modifier"
                         icon={modify}
-                        link={`/profile/${auth.userId}/update`}
+                        link={`/groupomania.app/profile/${auth.userId}/update`}
                         btnStyle={btnStyle}
                         iconColor={iconStyle}
                     />

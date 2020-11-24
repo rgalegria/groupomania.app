@@ -11,9 +11,15 @@ import NavBtn from "../../components/Buttons/NavBtn/NavBtn";
 const NavPost = () => {
     return (
         <>
-            <NavBtn id="menu" name="menu" icon={menu} link="/menu" iconColor="icon_white" />
-            <NavBtn id="post" name="publier" icon={post} link="/posts/new" iconColor="icon_white" />
-            <NavBtn id="categories" name="catégories" icon={categories} link="/posts" iconColor="icon_white" />
+            <NavBtn id="menu" name="menu" icon={menu} link="/groupomania.app/menu" iconColor="icon_white" />
+            <NavBtn id="post" name="publier" icon={post} link="/groupomania.app/posts/new" iconColor="icon_white" />
+            <NavBtn
+                id="categories"
+                name="catégories"
+                icon={categories}
+                link="/groupomania.app/posts"
+                iconColor="icon_white"
+            />
         </>
     );
 };

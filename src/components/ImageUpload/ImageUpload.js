@@ -56,7 +56,7 @@ const ImageUpload = (props) => {
     };
 
     // Construction pour la page new post
-    if (path === "/posts/new") {
+    if (path === "/groupomania.app/posts/new") {
         return (
             <>
                 <label htmlFor="upload-button" className={styles.image_container}>

@@ -226,7 +226,7 @@ const UpdateProfile = () => {
                 id="back"
                 name="Retourner"
                 icon={back}
-                link={`/profile/${auth.userId}`}
+                link={`/groupomania.app/profile/${auth.userId}`}
                 btnStyle={btnStyle}
                 iconColor={iconStyle}
             />

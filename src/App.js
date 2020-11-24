@@ -26,48 +26,25 @@ const App = () => {
     if (token) {
         routes = (
             <Switch>
-                <Route path={`${process.env.GITHUB_URL}/posts`} exact component={Posts} />
-                <Route path={`${process.env.GITHUB_URL}/posts/new`} exact component={NewPost} />
-                <Route path={`${process.env.GITHUB_URL}/menu`} exact component={Menu} />
-                <Route path={`${process.env.GITHUB_URL}/profile/:id`} exact component={UserProfile} />
-                <Route path={`${process.env.GITHUB_URL}/profile/:id/update`} exact component={UpdateProfile} />
-                <Route path={`${process.env.GITHUB_URL}/posts/:id`} exact component={CommentPost} />
-                <Redirect to={`${process.env.GITHUB_URL}/posts`} />
+                <Route path="/groupomania.app/posts" exact component={Posts} />
+                <Route path="/groupomania.app/posts/new" exact component={NewPost} />
+                <Route path="/groupomania.app/menu" exact component={Menu} />
+                <Route path="/groupomania.app/profile/:id" exact component={UserProfile} />
+                <Route path="/groupomania.app/profile/:id/update" exact component={UpdateProfile} />
+                <Route path="/groupomania.app/posts/:id" exact component={CommentPost} />
+                <Redirect to="/groupomania.app/posts" />
             </Switch>
         );
     } else {
         routes = (
             <Switch>
-                <Route path={`${process.env.GITHUB_URL}/`} exact component={Home} />
-                <Route path={`${process.env.GITHUB_URL}/login`} exact component={Login} />
-                <Route path={`${process.env.GITHUB_URL}/signup`} exact component={Signup} />
-                <Redirect to={`${process.env.GITHUB_URL}/`} />
+                <Route path="/groupomania.app/" exact component={Home} />
+                <Route path="/groupomania.app/login" exact component={Login} />
+                <Route path="/groupomania.app/signup" exact component={Signup} />
+                <Redirect to="/groupomania.app/" />
             </Switch>
         );
     }
-
-    // if (token) {
-    //     routes = (
-    //         <Switch>
-    //             <Route path="/posts" exact component={Posts} />
-    //             <Route path="/posts/new" exact component={NewPost} />
-    //             <Route path="/menu" exact component={Menu} />
-    //             <Route path="/profile/:id" exact component={UserProfile} />
-    //             <Route path="/profile/:id/update" exact component={UpdateProfile} />
-    //             <Route path="/posts/:id" exact component={CommentPost} />
-    //             <Redirect to="/posts" />
-    //         </Switch>
-    //     );
-    // } else {
-    //     routes = (
-    //         <Switch>
-    //             <Route path="/" exact component={Home} />
-    //             <Route path="/login" exact component={Login} />
-    //             <Route path="/signup" exact component={Signup} />
-    //             <Redirect to="/" />
-    //         </Switch>
-    //     );
-    // }
 
     return (
         <AuthContext.Provider

@@ -126,8 +126,8 @@ const Post = (props) => {
                     Authorization: "Bearer " + auth.token,
                 }
             );
-            if (path === `/posts/${postId}`) {
-                history.push(`/posts`);
+            if (path === `/groupomania.app/posts/${postId}`) {
+                history.push(`/groupomania.app/posts`);
             } else {
                 props.onDelete(props.id);
             }
@@ -137,7 +137,7 @@ const Post = (props) => {
     // Type de visualisation sur Posts et Comment Post
     let commentBlock;
 
-    if (props.location.pathname === "/posts") {
+    if (props.location.pathname === "/groupomania.app/posts") {
         commentBlock = (
             <>
                 <ReactionBtn btnType="decor" icon="comments" text={props.comments} styling="" reaction={null} />

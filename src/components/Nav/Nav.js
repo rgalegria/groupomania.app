@@ -20,7 +20,7 @@ const Nav = (props) => {
     // Authentication context
     const auth = useContext(AuthContext);
 
-    const id = props.location.pathname.split("/")[2];
+    const id = props.location.pathname.split("/")[3];
 
     const backHandle = (e) => {
         e.preventDefault();
@@ -30,41 +30,41 @@ const Nav = (props) => {
     let nav;
 
     switch (props.location.pathname) {
-        case `${process.env.GITHUB_URL}/`:
+        case `/groupomania.app/`:
             nav = <NavHome />;
             break;
-        case `${process.env.GITHUB_URL}/login`:
+        case `/groupomania.app/login`:
             nav = <NavLogin backHandle={backHandle} />;
             break;
-        case `${process.env.GITHUB_URL}/signup`:
+        case `/groupomania.app/signup`:
             nav = <NavSignUp backHandle={backHandle} />;
             break;
-        case `${process.env.GITHUB_URL}/posts`:
+        case `/groupomania.app/posts`:
             if (auth.isLoggedIn) {
                 nav = <NavPost backHandle={backHandle} />;
             }
             break;
-        case `${process.env.GITHUB_URL}/menu`:
+        case `/groupomania.app/menu`:
             if (auth.isLoggedIn) {
                 nav = <NavMenu backHandle={backHandle} />;
             }
             break;
-        case `${process.env.GITHUB_URL}/posts/new`:
+        case `/groupomania.app/posts/new`:
             if (auth.isLoggedIn) {
                 nav = <NavNewPost backHandle={backHandle} />;
             }
             break;
-        case `${process.env.GITHUB_URL}/posts/${id}`:
+        case `/groupomania.app/posts/${id}`:
             if (auth.isLoggedIn) {
                 nav = <NavComments backHandle={backHandle} commentHandle={backHandle} />;
             }
             break;
-        case `${process.env.GITHUB_URL}/profile/${id}`:
+        case `/groupomania.app/profile/${id}`:
             if (auth.isLoggedIn) {
                 nav = <NavProfile backHandle={backHandle} />;
             }
             break;
-        case `${process.env.GITHUB_URL}/profile/${auth.userId}/update`:
+        case `/groupomania.app/profile/${auth.userId}/update`:
             if (auth.isLoggedIn) {
                 nav = <NavUpdate />;
             }

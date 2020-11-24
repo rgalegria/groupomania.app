@@ -114,7 +114,7 @@ const Login = () => {
                     />
                 </form>
                 <p className="error_message">{error}</p>
-                <Link className="forgot_pass_link" to={"/login"}>
+                <Link className="forgot_pass_link" to={"/groupomania.app/login"}>
                     mot de passe oublié ?
                 </Link>
             </div>

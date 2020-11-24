@@ -44,13 +44,13 @@ const Layout = (props) => {
     // Desktop Layout
     if (width >= 1024) {
         switch (path) {
-            case `${process.env.GITHUB_URL}/`:
+            case `/groupomania.app/`:
                 return mobileLayout;
             // break;
-            case `${process.env.GITHUB_URL}/login`:
+            case `/groupomania.app/login`:
                 return mobileLayout;
             // break;
-            case `${process.env.GITHUB_URL}/signup`:
+            case `/groupomania.app/signup`:
                 return mobileLayout;
             // break;
             default:

@@ -13,7 +13,7 @@ const NavProfile = (props) => {
     // Authentication context
     const auth = useContext(AuthContext);
 
-    const userId = Number(props.location.pathname.split("/")[2]);
+    const userId = Number(props.location.pathname.split("/")[3]);
 
     let modifyBtn;
 
@@ -23,7 +23,7 @@ const NavProfile = (props) => {
                 id="update-profile"
                 name="modifier"
                 icon={modify}
-                link={`/profile/${auth.userId}/update`}
+                link={`/groupomania.app/profile/${auth.userId}/update`}
                 iconColor="icon_white"
             />
         );
@@ -33,7 +33,7 @@ const NavProfile = (props) => {
 
     return (
         <>
-            <NavBtn id="back" name="retourner" icon={back} link="/posts" iconColor="icon_white" />
+            <NavBtn id="back" name="retourner" icon={back} link="/groupomania.app/posts" iconColor="icon_white" />
             {auth.userId && userId && modifyBtn}
         </>
     );

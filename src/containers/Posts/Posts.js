@@ -90,7 +90,7 @@ const Posts = () => {
 
     if (width >= 1024) {
         newPost = (
-            <Link to={`posts/new`} className={styles.btn}>
+            <Link to={`/groupomania.app/posts/new`} className={styles.btn}>
                 <span className={styles.text}>NOUVEAU POST</span>
                 <img className={styles.icon} src={postIcon} alt="" />
             </Link>

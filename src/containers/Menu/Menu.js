@@ -74,11 +74,11 @@ const Menu = () => {
     if (width >= 1024) {
         navLinks = (
             <>
-                <Link to="/posts" className={`${styles.btn} ${styles.border}`}>
+                <Link to="/groupomania.app/posts" className={`${styles.btn} ${styles.border}`}>
                     <span className={styles.text}>Publications</span>
                     <img className={`${styles.icon} icon_white`} src={posts} alt="" />
                 </Link>
-                <Link to="/posts" className={`${styles.btn} ${styles.border}`}>
+                <Link to="/groupomania.app/posts" className={`${styles.btn} ${styles.border}`}>
                     <span className={styles.text}>Catégories</span>
                     <img className={`${styles.icon} icon_white`} src={categories} alt="" />
                 </Link>
@@ -125,12 +125,15 @@ const Menu = () => {
                             </div>
                         </div>
                         <nav className={styles.list}>
-                            <Link to={`profile/${auth.userId}`} className={`${styles.btn} ${styles.border}`}>
+                            <Link
+                                to={`/groupomania.app/profile/${auth.userId}`}
+                                className={`${styles.btn} ${styles.border}`}
+                            >
                                 <span className={styles.text}>Mon profil</span>
                                 <img className={`${styles.icon} icon_white`} src={person} alt="" />
                             </Link>
                             {navLinks}
-                            <Link to="/posts" className={`${styles.btn} ${styles.border}`}>
+                            <Link to="/groupomania.app/posts" className={`${styles.btn} ${styles.border}`}>
                                 <span className={styles.text}>Annuaire</span>
                                 <img className={`${styles.icon} icon_white`} src={agenda} alt="" />
                             </Link>

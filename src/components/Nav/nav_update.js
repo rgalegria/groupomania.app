@@ -13,7 +13,12 @@ const NavLogin = (props) => {
 
     return (
         <>
-            <NavBtn icon={close} name="annuler" link={`/profile/${auth.userId}`} iconColor="icon_white" />
+            <NavBtn
+                icon={close}
+                name="annuler"
+                link={`/groupomania.app/profile/${auth.userId}`}
+                iconColor="icon_white"
+            />
         </>
     );
 };

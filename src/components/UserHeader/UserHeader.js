@@ -75,7 +75,7 @@ const UserHeader = (props) => {
 
     return (
         <header className={styles.block}>
-            <Link to={`/profile/${props.UserId}`}>
+            <Link to={`/groupomania.app/profile/${props.UserId}`}>
                 <img
                     className={styles.photo}
                     src={props.photo_url || GenProfile}
