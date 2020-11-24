@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/groupomania.app/static/css/main.7189fbc3.chunk.css",
-    "main.js": "/groupomania.app/static/js/main.b2398dff.chunk.js",
-    "main.js.map": "/groupomania.app/static/js/main.b2398dff.chunk.js.map",
+    "main.css": "/groupomania.app/static/css/main.61bb9725.chunk.css",
+    "main.js": "/groupomania.app/static/js/main.e2e69809.chunk.js",
+    "main.js.map": "/groupomania.app/static/js/main.e2e69809.chunk.js.map",
     "runtime-main.js": "/groupomania.app/static/js/runtime-main.14b6c0d6.js",
     "runtime-main.js.map": "/groupomania.app/static/js/runtime-main.14b6c0d6.js.map",
     "static/js/2.809a8b63.chunk.js": "/groupomania.app/static/js/2.809a8b63.chunk.js",
     "static/js/2.809a8b63.chunk.js.map": "/groupomania.app/static/js/2.809a8b63.chunk.js.map",
     "index.html": "/groupomania.app/index.html",
-    "precache-manifest.e0fbb4e2ae4a6903eedb7ab95b0ac58c.js": "/groupomania.app/precache-manifest.e0fbb4e2ae4a6903eedb7ab95b0ac58c.js",
+    "precache-manifest.d82b2e46f9f43458d4ee1d354869975a.js": "/groupomania.app/precache-manifest.d82b2e46f9f43458d4ee1d354869975a.js",
     "service-worker.js": "/groupomania.app/service-worker.js",
-    "static/css/main.7189fbc3.chunk.css.map": "/groupomania.app/static/css/main.7189fbc3.chunk.css.map",
+    "static/css/main.61bb9725.chunk.css.map": "/groupomania.app/static/css/main.61bb9725.chunk.css.map",
     "static/js/2.809a8b63.chunk.js.LICENSE.txt": "/groupomania.app/static/js/2.809a8b63.chunk.js.LICENSE.txt",
     "static/media/agenda-icon.svg": "/groupomania.app/static/media/agenda-icon.1a8a09ec.svg",
     "static/media/back-icon.svg": "/groupomania.app/static/media/back-icon.69eb6e06.svg",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.14b6c0d6.js",
     "static/js/2.809a8b63.chunk.js",
-    "static/css/main.7189fbc3.chunk.css",
-    "static/js/main.b2398dff.chunk.js"
+    "static/css/main.61bb9725.chunk.css",
+    "static/js/main.e2e69809.chunk.js"
   ]
 }
