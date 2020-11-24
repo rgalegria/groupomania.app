@@ -25,7 +25,7 @@ const Post = (props) => {
 
     // App Location
     const path = props.location.pathname;
-    const postId = props.location.pathname.split("/")[2];
+    const postId = props.location.pathname.split("/")[3];
 
     // User Likes
     const [likesCounter, setLikesCounter] = useState(props.likes);

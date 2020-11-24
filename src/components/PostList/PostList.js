@@ -34,7 +34,7 @@ const PostList = (props) => {
                         dislikes={post.dislikes}
                         comments={post.comments}
                         userReaction={post.userReaction}
-                        post_link={`/posts/${post.PostId}`}
+                        post_link={`/groupomania.app/posts/${post.PostId}`}
                         onDelete={props.onDeletePost}
                     />
                 );
